@@ -6,7 +6,9 @@ public class Main {
         System.out.println(sign.getLines());
         sign = new Sign("Everything on sale, please come in", 17);
         System.out.println(sign.numberOfLines());
+        System.out.println(sign.getLines());
         sign = new Sign("Everything on sale, please come in", 40);
         System.out.println(sign.numberOfLines());
+        System.out.println(sign.getLines());
     }
 }
