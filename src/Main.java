@@ -11,6 +11,8 @@ public class Main {
         System.out.println(sign.numberOfLines());
         System.out.println(sign.getLines());
 
+        System.out.println();
+
         String str;
         int x;
         Sign sign1 = new Sign("ABC222DE", 3);
