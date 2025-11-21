@@ -42,6 +42,15 @@ public class Sign {
      * No semicolon should appear at the end of the String returned by getLines.
      */
     public String getLines() {
-    return "";
+        if (message == null) return null;
+        String lines = "";
+        for (int i = 0; i < messageLength; i ++) {
+            String character = message.substring(i, i + 1);
+            lines += character;
+            if ((i + 1) % lineWidth == 0) {
+                lines += ";";
+            }
+        }
+        return lines;
     }
 }
