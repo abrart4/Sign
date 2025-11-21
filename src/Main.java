@@ -3,9 +3,9 @@ public class Main {
         Sign sign;
         sign = new Sign("Everything on sale, please come in", 15);
         System.out.println(sign.numberOfLines());
-        sign = new Sign("Everything on sale, please come in", 15);
+        sign = new Sign("Everything on sale, please come in", 17);
         System.out.println(sign.numberOfLines());
-        sign = new Sign("Everything on sale, please come in", 15);
+        sign = new Sign("Everything on sale, please come in", 40);
         System.out.println(sign.numberOfLines());
     }
 }
